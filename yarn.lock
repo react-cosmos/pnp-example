@@ -4065,7 +4065,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-cosmos-core@npm:^6.0.0-alpha.5, react-cosmos-core@npm:^6.0.0-canary.ebeafed.0+ebeafed":
+"react-cosmos-core@npm:^6.0.0-canary.ebeafed.0+ebeafed":
   version: 6.0.0-canary.ebeafed.0
   resolution: "react-cosmos-core@npm:6.0.0-canary.ebeafed.0"
   dependencies:
@@ -4075,7 +4075,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-cosmos-dom@npm:^6.0.0-alpha.5":
+"react-cosmos-dom@npm:^6.0.0-canary.ebeafed.0+ebeafed":
   version: 6.0.0-canary.ebeafed.0
   resolution: "react-cosmos-dom@npm:6.0.0-canary.ebeafed.0"
   dependencies:
@@ -4085,22 +4085,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-cosmos-plugin-webpack@portal:/Users/ovidiu/Work/react-cosmos/react-cosmos/packages/react-cosmos-plugin-webpack::locator=pnp-example%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "react-cosmos-plugin-webpack@portal:/Users/ovidiu/Work/react-cosmos/react-cosmos/packages/react-cosmos-plugin-webpack::locator=pnp-example%40workspace%3A."
+"react-cosmos-plugin-webpack@npm:^6.0.0-canary.dffb812.0":
+  version: 6.0.0-canary.ebeafed.0
+  resolution: "react-cosmos-plugin-webpack@npm:6.0.0-canary.ebeafed.0"
   dependencies:
     lodash-es: ^4.17.21
-    react-cosmos-core: ^6.0.0-alpha.5
-    react-cosmos-dom: ^6.0.0-alpha.5
+    react-cosmos-core: ^6.0.0-canary.ebeafed.0+ebeafed
+    react-cosmos-dom: ^6.0.0-canary.ebeafed.0+ebeafed
     react-error-overlay: 6.0.9
     webpack-dev-middleware: ^6.0.1
     webpack-hot-middleware: ^2.25.3
-  peerDependencies:
-    webpack: "*"
+  checksum: 848273b478915a93337ae2631aae42e283225a3700e005fed65e9dadf6d2689860604266914d241c3d9b90beadbaf4ca3a57ac976307d1256e1e13a9fbc5be95
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"react-cosmos-ui@npm:^6.0.0-alpha.5":
+"react-cosmos-ui@npm:^6.0.0-canary.ebeafed.0+ebeafed":
   version: 6.0.0-canary.ebeafed.0
   resolution: "react-cosmos-ui@npm:6.0.0-canary.ebeafed.0"
   dependencies:
@@ -4110,9 +4109,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-cosmos@portal:/Users/ovidiu/Work/react-cosmos/react-cosmos/packages/react-cosmos::locator=pnp-example%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "react-cosmos@portal:/Users/ovidiu/Work/react-cosmos/react-cosmos/packages/react-cosmos::locator=pnp-example%40workspace%3A."
+"react-cosmos@npm:^6.0.0-canary.dffb812.0":
+  version: 6.0.0-canary.ebeafed.0
+  resolution: "react-cosmos@npm:6.0.0-canary.ebeafed.0"
   dependencies:
     "@skidding/launch-editor": ^2.2.3
     chokidar: ^3.5.3
@@ -4124,16 +4123,17 @@ __metadata:
     open: ^8.4.2
     pem: ^1.14.6
     pkg-up: ^4.0.0
-    react-cosmos-core: ^6.0.0-alpha.5
-    react-cosmos-ui: ^6.0.0-alpha.5
+    react-cosmos-core: ^6.0.0-canary.ebeafed.0+ebeafed
+    react-cosmos-ui: ^6.0.0-canary.ebeafed.0+ebeafed
     ws: ^8.12.1
     yargs: ^17.7.0
   bin:
-    cosmos: ./bin/cosmos.js
-    cosmos-export: ./bin/cosmos-export.js
-    cosmos-native: ./bin/cosmos-native.js
+    cosmos: bin/cosmos.js
+    cosmos-export: bin/cosmos-export.js
+    cosmos-native: bin/cosmos-native.js
+  checksum: 9346aec3a45737d9dc1c983b0fb294521541af01271a32557e373efd064bdab74ef95fa7e9356202390fd2ef159e7764fc1ace8338c9f0f6cae55cd4704f9b36
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "react-dom@npm:^18.2.0":
   version: 18.2.0
