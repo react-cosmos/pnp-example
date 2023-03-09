@@ -3977,8 +3977,8 @@ __metadata:
     babel-loader: ^9.1.2
     html-webpack-plugin: ^5.5.0
     react: ^18.2.0
-    react-cosmos: ^6.0.0-canary.dffb812.0
-    react-cosmos-plugin-webpack: ^6.0.0-canary.dffb812.0
+    react-cosmos: canary
+    react-cosmos-plugin-webpack: canary
     react-dom: ^18.2.0
     webpack: ^5.76.0
   languageName: unknown
@@ -4065,7 +4065,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-cosmos-core@npm:^6.0.0-canary.ebeafed.0+ebeafed":
+"react-cosmos-core@npm:^6.0.0-canary.9f98170.0+9f98170, react-cosmos-core@npm:^6.0.0-canary.ebeafed.0+ebeafed":
   version: 6.0.0-canary.ebeafed.0
   resolution: "react-cosmos-core@npm:6.0.0-canary.ebeafed.0"
   dependencies:
@@ -4075,7 +4075,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-cosmos-dom@npm:^6.0.0-canary.ebeafed.0+ebeafed":
+"react-cosmos-dom@npm:^6.0.0-canary.9f98170.0+9f98170":
   version: 6.0.0-canary.ebeafed.0
   resolution: "react-cosmos-dom@npm:6.0.0-canary.ebeafed.0"
   dependencies:
@@ -4085,21 +4085,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-cosmos-plugin-webpack@npm:^6.0.0-canary.dffb812.0":
-  version: 6.0.0-canary.ebeafed.0
-  resolution: "react-cosmos-plugin-webpack@npm:6.0.0-canary.ebeafed.0"
+"react-cosmos-plugin-webpack@npm:canary":
+  version: 6.0.0-canary.9f98170.0
+  resolution: "react-cosmos-plugin-webpack@npm:6.0.0-canary.9f98170.0"
   dependencies:
     lodash-es: ^4.17.21
-    react-cosmos-core: ^6.0.0-canary.ebeafed.0+ebeafed
-    react-cosmos-dom: ^6.0.0-canary.ebeafed.0+ebeafed
+    react-cosmos-core: ^6.0.0-canary.9f98170.0+9f98170
+    react-cosmos-dom: ^6.0.0-canary.9f98170.0+9f98170
     react-error-overlay: 6.0.9
     webpack-dev-middleware: ^6.0.1
     webpack-hot-middleware: ^2.25.3
-  checksum: 848273b478915a93337ae2631aae42e283225a3700e005fed65e9dadf6d2689860604266914d241c3d9b90beadbaf4ca3a57ac976307d1256e1e13a9fbc5be95
+  peerDependencies:
+    webpack: "*"
+  checksum: babfb6422fe1d0bf703e0dd780af7056037c7339e651765097188e589487058610cf7b6bf93b2a1aae9a4adc27e877c114f300210337e0f3abaafbf462c8135b
   languageName: node
   linkType: hard
 
-"react-cosmos-ui@npm:^6.0.0-canary.ebeafed.0+ebeafed":
+"react-cosmos-ui@npm:^6.0.0-canary.9f98170.0+9f98170":
   version: 6.0.0-canary.ebeafed.0
   resolution: "react-cosmos-ui@npm:6.0.0-canary.ebeafed.0"
   dependencies:
@@ -4109,9 +4111,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-cosmos@npm:^6.0.0-canary.dffb812.0":
-  version: 6.0.0-canary.ebeafed.0
-  resolution: "react-cosmos@npm:6.0.0-canary.ebeafed.0"
+"react-cosmos@npm:canary":
+  version: 6.0.0-canary.9f98170.0
+  resolution: "react-cosmos@npm:6.0.0-canary.9f98170.0"
   dependencies:
     "@skidding/launch-editor": ^2.2.3
     chokidar: ^3.5.3
@@ -4123,15 +4125,15 @@ __metadata:
     open: ^8.4.2
     pem: ^1.14.6
     pkg-up: ^4.0.0
-    react-cosmos-core: ^6.0.0-canary.ebeafed.0+ebeafed
-    react-cosmos-ui: ^6.0.0-canary.ebeafed.0+ebeafed
+    react-cosmos-core: ^6.0.0-canary.9f98170.0+9f98170
+    react-cosmos-ui: ^6.0.0-canary.9f98170.0+9f98170
     ws: ^8.12.1
-    yargs: ^17.7.0
+    yargs: ^17.7.1
   bin:
     cosmos: bin/cosmos.js
     cosmos-export: bin/cosmos-export.js
     cosmos-native: bin/cosmos-native.js
-  checksum: 9346aec3a45737d9dc1c983b0fb294521541af01271a32557e373efd064bdab74ef95fa7e9356202390fd2ef159e7764fc1ace8338c9f0f6cae55cd4704f9b36
+  checksum: 36c67db2888e0c15babf689413851652c3521f643a21e667823be840cb2999b5dc6a87b1eed5a2aa961edc36e9497b4bc2083f05149085dba23c43f7e1adf84f
   languageName: node
   linkType: hard
 
@@ -4973,7 +4975,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^17.7.0":
+"yargs@npm:^17.7.1":
   version: 17.7.1
   resolution: "yargs@npm:17.7.1"
   dependencies:
