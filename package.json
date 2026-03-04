@@ -5,17 +5,12 @@
   "repository": "https://github.com/react-cosmos/pnp-example.git",
   "author": "Ovidiu Cherecheș <hello@ovidiu.ch>",
   "license": "MIT",
-  "packageManager": "yarn@3.4.1",
+  "packageManager": "yarn@4.13.0",
   "dependencies": {
-    "@babel/core": "^7.21.0",
-    "@babel/preset-env": "^7.20.2",
-    "@babel/preset-react": "^7.18.6",
-    "babel-loader": "^9.1.2",
-    "html-webpack-plugin": "^5.5.0",
     "react": "^18.2.0",
-    "react-cosmos": "canary",
-    "react-cosmos-plugin-webpack": "canary",
+    "react-cosmos": "7.1.1",
+    "react-cosmos-plugin-vite": "7.1.1",
     "react-dom": "^18.2.0",
-    "webpack": "^5.76.0"
+    "vite": "^5.0.0"
   }
 }
